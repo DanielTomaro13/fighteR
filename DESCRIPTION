@@ -1,11 +1,25 @@
 Package: fighteR
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Access Combat Sports Data for Boxing and Mixed Martial Arts
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: 
+    person("Daniel", "Tomaro", 
+           email = "daniel.tomaro@icloud.com", 
+           role = c("aut", "cre"))
+Description: Functions to retrieve combat sports data as clean data frames. 
+    Covers boxers, events and fight cards from the 'BoxingBook' API, and 
+    mixed martial arts schedules and fight cards for the UFC and other 
+    promotions from ESPN's public API. These are unofficial endpoints that 
+    may change without notice.
+License: MIT + file LICENSE
+URL: https://danieltomaro13.github.io/fighteR/, https://github.com/DanielTomaro13/fighteR
+BugReports: https://github.com/DanielTomaro13/fighteR/issues
 Encoding: UTF-8
 LazyData: true
+Depends: 
+    R (>= 4.0.0)
+Imports:
+    httr,
+    jsonlite
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2

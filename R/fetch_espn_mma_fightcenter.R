@@ -139,7 +139,6 @@ fetch_espn_mma_fightcenter <- function(event_id = NULL,
       resp <- httr::GET(
         url,
         httr::timeout(timeout),
-        httr::user_agent("fighteR R package - ESPN MMA Fight Center"),
         httr::add_headers(
           "Accept" = "application/json",
           "Accept-Language" = "en-US,en;q=0.9"
@@ -212,7 +211,6 @@ get_event_from_scoreboard <- function(event_id, league, timeout) {
     resp <- httr::GET(
       url,
       httr::timeout(timeout),
-      httr::user_agent("fighteR R package - ESPN MMA"),
       httr::add_headers("Accept" = "application/json")
     )
 
@@ -258,7 +256,6 @@ get_current_featured_event <- function(league, timeout) {
     resp <- httr::GET(
       url,
       httr::timeout(timeout),
-      httr::user_agent("fighteR R package - ESPN MMA"),
       httr::add_headers("Accept" = "application/json")
     )
 

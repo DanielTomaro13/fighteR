@@ -1,0 +1,24 @@
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://danieltomaro13.github.io/fighteR/404.html</loc></url>
+<url><loc>https://danieltomaro13.github.io/fighteR/LICENSE-text.html</loc></url>
+<url><loc>https://danieltomaro13.github.io/fighteR/LICENSE.html</loc></url>
+<url><loc>https://danieltomaro13.github.io/fighteR/authors.html</loc></url>
+<url><loc>https://danieltomaro13.github.io/fighteR/index.html</loc></url>
+<url><loc>https://danieltomaro13.github.io/fighteR/reference/clean_boxers_data.html</loc></url>
+<url><loc>https://danieltomaro13.github.io/fighteR/reference/create_clean_fight_card_dataset.html</loc></url>
+<url><loc>https://danieltomaro13.github.io/fighteR/reference/create_clean_mma_dataset.html</loc></url>
+<url><loc>https://danieltomaro13.github.io/fighteR/reference/extract_distribution_data.html</loc></url>
+<url><loc>https://danieltomaro13.github.io/fighteR/reference/extract_event_type_from_name.html</loc></url>
+<url><loc>https://danieltomaro13.github.io/fighteR/reference/extract_promotion_from_name.html</loc></url>
+<url><loc>https://danieltomaro13.github.io/fighteR/reference/fetch_boxingbook_boxer.html</loc></url>
+<url><loc>https://danieltomaro13.github.io/fighteR/reference/fetch_boxingbook_boxers.html</loc></url>
+<url><loc>https://danieltomaro13.github.io/fighteR/reference/fetch_boxingbook_event_fights.html</loc></url>
+<url><loc>https://danieltomaro13.github.io/fighteR/reference/fetch_boxingbook_events.html</loc></url>
+<url><loc>https://danieltomaro13.github.io/fighteR/reference/fetch_espn_mma_fightcenter.html</loc></url>
+<url><loc>https://danieltomaro13.github.io/fighteR/reference/fetch_espn_mma_schedule.html</loc></url>
+<url><loc>https://danieltomaro13.github.io/fighteR/reference/get_current_featured_event.html</loc></url>
+<url><loc>https://danieltomaro13.github.io/fighteR/reference/get_event_from_scoreboard.html</loc></url>
+<url><loc>https://danieltomaro13.github.io/fighteR/reference/index.html</loc></url>
+<url><loc>https://danieltomaro13.github.io/fighteR/reference/safe_convert_to_dataframe.html</loc></url>
+</urlset>
+

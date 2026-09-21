@@ -141,7 +141,6 @@ fetch_espn_mma_schedule <- function(league = "ufc",
     resp <- httr::GET(
       final_url,
       httr::timeout(timeout),
-      httr::user_agent("fighteR R package - ESPN MMA Schedule Fetcher"),
       httr::add_headers(
         "Accept" = "application/json",
         "Accept-Language" = "en-US,en;q=0.9"
